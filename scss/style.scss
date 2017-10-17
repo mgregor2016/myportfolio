@@ -1,0 +1,60 @@
+@import "base";
+
+/* #SITE SPECIFIC CUSTOM CSS (e.g. Base Overrides)
+---------------------------------
+	#TYPOGRAPHY OVERRIDES
+		#@FONT-FACE
+        #BODY
+		#HEADINGS
+		#PARAGRAPHS
+    #LAYOUT OVERRIDES
+		#BODY
+		#CONTAINER
+    #NAVIGATION
+        #SITE-BRANDING
+        #SITE-NAVIGATION
+    #CONTENT
+        #SECTIONS
+--------------------------------- */
+
+/* Custom Overrides */
+
+.mixcontainer .mix{
+    
+    display: inline-block;
+    //float: left;
+    
+    width: 49%;
+    margin-right: -4px;
+    padding: 0 .5%;
+    
+    @media(min-width: $breakpoint-small) {
+        width: 24%;
+        //margin: .5%;
+    }
+    
+    
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    
+	display: none;
+}
+
+.subpage #work {
+    margin-bottom: 10em;
+}
+
+.controls {
+    margin-bottom: 2em;
+}
+
+body {
+}
+
+h1, h2, h3, h4, h5, h6 {
+}
+

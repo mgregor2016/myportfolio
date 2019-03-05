@@ -217,7 +217,7 @@ button, a.button {
   letter-spacing: .15em;
   font-size: 80%;
   display: inline-block;
-  background-color: #bbb;
+  background-color: black;
   border: 1px solid red;
   color: #fff;
   padding: .75em 1em;

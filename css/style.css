@@ -177,11 +177,6 @@ code {
 
 /* #MEDIA  */
 /* #IMAGES */
-img:hover{
-  cursor: pointer;
-  -webkit-filter: grayscale(0%) blur(0);
-}
-
 img.scale-with-grid {
   max-width: 100%;
   height: auto;
@@ -699,10 +694,13 @@ form input[type=reset] {
     display: block;
     max-width: 100%;
     height: auto;
-	  -webkit-filter: grayscale(70%) blur(.5px);
+	  -webkit-filter: grayscale(70%) blur(0);
+	  transition: all 0.35s ease-in-out;
 }
  .mixcontainer .mix img:hover {
-}	 -webkit-filter: grayscale(0%) blur(0);
+	 -webkit-filter: grayscale(0%) blur(0);
+}	 
+
 	 
 
 #work {

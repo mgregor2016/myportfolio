@@ -177,6 +177,15 @@ code {
 
 /* #MEDIA  */
 /* #IMAGES */
+img{
+ webkit-filter: grayscale(90%) blur(0.5px);
+}
+
+img:hover{
+  cursor: pointer;
+  -webkit-filter: grayscale(0%) blur(0);
+}
+
 img.scale-with-grid {
   max-width: 100%;
   height: auto; }

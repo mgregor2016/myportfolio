@@ -699,8 +699,11 @@ form input[type=reset] {
     display: block;
     max-width: 100%;
     height: auto;
-	  -webkit-filter: grayscale(0%) blur(0);
+	  -webkit-filter: grayscale(70%) blur(.5px);
 }
+ .mixcontainer .mix img:hover {
+}	 -webkit-filter: grayscale(0%) blur(0);
+	 
 
 #work {
   padding-bottom: 5em;

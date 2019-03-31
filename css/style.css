@@ -471,9 +471,6 @@ section {
   top: 2em;
   margin-bottom: 3em; }.
 
-.hero .rioja {
-  background: #000;
-}
 
 .hero {
   background: #ddd;
@@ -492,6 +489,12 @@ section {
   .hero.full-width {
     margin-top: 0;
     margin-bottom: 0; }
+
+/*black section*/
+.hero .rioja {
+  background: #000;
+}
+
 
 /* Colored Sections */
 section.superlightgrey {

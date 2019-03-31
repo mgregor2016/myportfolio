@@ -470,6 +470,10 @@ section {
   top: 2em;
   margin-bottom: 3em; }
 
+.hero .rioja{
+  background: #000;
+}
+	
 .hero {
   background: #000;
   border-top: none;

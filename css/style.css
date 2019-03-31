@@ -491,7 +491,7 @@ section {
     margin-bottom: 0; }
 
 /*black section*/
-.hero .rioja {
+.hero.rioja {
   background: #000;
 }
 

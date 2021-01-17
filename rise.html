@@ -2,26 +2,26 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>My Portfolio</title>
+<title>My Portfolio</title> 
 
 <!-- HTML5 -->
 <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-
+    
 <!-- VIEWPORT FOR MOBILE -->
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<!-- GOOGLE FONTS -->
+<!-- GOOGLE FONTS -->   
 <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
-
-<!-- MAIN CSS FILE -->
+    
+<!-- MAIN CSS FILE -->    
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 
 </head>
 
-<body>
-
+<body class="subpage"> 
+    
 <header class="site-header">
     <div class="container">
         <div class="site-branding">
@@ -31,7 +31,7 @@
             <div class="menu-button navicon">Menu</div>
             <ul class="nav">
                 <li class="hidden"><a href="index.html">Home</a></li>
-                <li><a href="index.html#work">Work</a></li>
+                <li class="selected"><a href="index.html#work">Work</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -40,36 +40,42 @@
 </header>
 
 <main class="site-main">
+        
+    <section class="hero">
+        <img src="img/placeholder-1x1-video.jpg" alt="placeholder" class="scale-with-grid" />
+    </section>
+    
     <div class="container">
-
-
-        <section id="work" class="text-centered">
-
-            <div class="controls">
-                <button class="filter alt" data-filter="all">All</button>
-                <button class="filter alt" data-filter=".print">Print</button>
-                <button class="filter alt" data-filter=".web">Web</button>
-                <button class="filter alt" data-filter=".motion">Motion</button>
-                <button class="filter alt" data-filter=".identity">Identity</button>
+        
+        <section>
+            <h1>Promo</h1>
+            <p>Short description of this project. This is a sample portfolio entry project page. This can be as simple as a bunch of images stacked or as complex as a detailed case study.</p>
+        </section> 
+        
+        <section>
+            <div class="video">
+                <iframe width="1120" height="630" src="https://www.youtube.com/embed/ru_mj49u_Xc" frameborder="0" allowfullscreen></iframe>
             </div>
-
-            <div class="mixcontainer group">
-                <a href="hint.html" class="mix web"><img src="img/hint_sq.png" alt="placeholder" /></a>
-                <a href="trayvon.html" class="mix print"><img src="img/tray_flyer.png" alt="placeholder" /></a>
-                <a href="rioja.html" class="mix web identity print"><img src="img/dancing_R.png" alt="placeholder" /></a>
-                <a href="marissa.html" class="mix print"><img src="img/marissa_sq.png" alt="placeholder" /></a>
-                <a href="revolution.html" class="mix web"><img src="img/untelevised_sq.png" alt="placeholder" /></a>
-                <a href="nicki.html" class="mix print"><img src="img/nicki_sq.png" alt="placeholder" /></a>
-                <a href="pinnacle.html" class="mix web"><img src="img/pinnacle_home_sq_2.png" alt="placeholder" /></a>
-                <a href="rise.html" class="mix motion"><img src="img/3_rise_sq.jpg" alt="placeholder" /></a>
+        </section> 
+        
+        <section class="post-navigation">
+            <div class="row">
+                <div class="one-third column">
+                    <p><a href="web-app.html"><span class="icon-char">&olt;</span> Previous</a></p>
+                </div>
+                <div class="one-third column">
+                    <p><a href="index.html"><span class="icon-char">&plusb;</span> Work</a></p>
+                </div>
+                <div class="one-third column">
+                    <p><a href="web-site.html"><span class="icon-char">&ogt;</span> Next</a></p>
+                </div>
             </div>
-
-        </section>
-
-    </div>
-
+        </section>         
+    
+    </div> 
+    
 </main>
-
+    
 <footer class="site-footer">
     <div class="container">
          <nav class="site-navigation">
@@ -81,17 +87,15 @@
         </nav>
     </div><!-- END CONTAINER -->
 </footer>
-
+    
 <!-- JQUERY -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    
 <!-- MIXIT UP -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
-
-
-
+    
 <!-- MAIN JS -->
 <script src="js/script.js"></script>
-
+    
 </body>
 </html>

@@ -178,7 +178,7 @@ code {
 /* #MEDIA  */
 /* #IMAGES */
 img.scale-with-grid {
-  max-width: 100%;
+  /*max-width: 100%;*/
   height: auto;
 }
 
@@ -706,9 +706,9 @@ form input[type=reset] {
 }
  .mixcontainer .mix img:hover {
 	 -webkit-filter: grayscale(0%) blur(0);
-}	 
+}
 
-	 
+
 
 #work {
   padding-bottom: 5em;

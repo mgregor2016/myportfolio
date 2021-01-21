@@ -178,7 +178,7 @@ code {
 /* #MEDIA  */
 /* #IMAGES */
 img.scale-with-grid {
-  /*max-width: 100%;*/
+  max-width: 100 vw;
   height: auto;
 }
 

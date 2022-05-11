@@ -10,9 +10,12 @@ $( document ).ready(function() {
       $(this).parent().toggleClass("open");
     });
     
+    
     //MIXITUP
     $(function(){
         $('.mixcontainer').mixItUp();
     });
     
+    
 });
+
